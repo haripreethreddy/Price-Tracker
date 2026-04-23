@@ -2,7 +2,7 @@ import csv
 from datetime import datetime
 from scraper import get_product_data
 
-URL = "https://www.flipkart.com/apple-iphone-14-blue-128-gb/p/itm..."
+URL = "https://www.flipkart.com/product1"
 
 def save_to_csv(data):
     file_path = "data/prices.csv"
